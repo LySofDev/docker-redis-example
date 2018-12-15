@@ -1,0 +1,259 @@
+*2
+$6
+SELECT
+$1
+0
+*3
+$3
+set
+$3
+foo
+$3
+bar
+*3
+$3
+set
+$3
+foo
+$3
+bar
+*2
+$6
+SELECT
+$1
+0
+*3
+$3
+SET
+$3
+foo
+$3
+biz
+*3
+$3
+SET
+$3
+foo
+$8
+Samantha
+*3
+$3
+set
+$3
+foo
+$11
+Set by Ruby
+*2
+$6
+SELECT
+$1
+0
+*3
+$3
+set
+$3
+foo
+$12
+Set by Node.
+*3
+$3
+set
+$3
+foo
+$12
+Set by Node.
+*3
+$3
+set
+$3
+foo
+$12
+Set by Node.
+*2
+$6
+SELECT
+$1
+0
+*3
+$3
+SET
+$3
+foo
+$13
+Set by Python
+*3
+$3
+set
+$3
+foo
+$11
+Set by Ruby
+*2
+$6
+SELECT
+$1
+0
+*3
+$3
+set
+$3
+foo
+$11
+Set by Ruby
+*2
+$6
+SELECT
+$1
+0
+*3
+$3
+set
+$3
+foo
+$9
+Set by Go
+*3
+$3
+set
+$3
+foo
+$11
+Set by Ruby
+*2
+$6
+SELECT
+$1
+0
+*3
+$3
+set
+$3
+foo
+$24
+{"Message":"Set By Go."}
+*3
+$3
+set
+$3
+foo
+$24
+{"Message":"Set By Go."}
+*3
+$3
+set
+$3
+foo
+$24
+{"Message":"Set By Go."}
+*3
+$3
+set
+$3
+foo
+$24
+{"Message":"Set By Go."}
+*3
+$3
+set
+$3
+foo
+$26
+{"message":"Set by Node."}
+*3
+$3
+set
+$3
+foo
+$24
+{"Message":"Set By Go."}
+*3
+$3
+set
+$3
+foo
+$26
+{"message":"Set by Node."}
+*3
+$3
+set
+$3
+foo
+$26
+{"message":"Set by Node."}
+*3
+$3
+set
+$3
+foo
+$24
+{"Message":"Set By Go."}
+*3
+$3
+set
+$3
+foo
+$26
+{"message":"Set by Node."}
+*3
+$3
+set
+$3
+foo
+$24
+{"Message":"Set By Go."}
+*3
+$3
+set
+$3
+foo
+$26
+{"message":"Set by Node."}
+*3
+$3
+set
+$3
+foo
+$24
+{"Message":"Set By Go."}
+*3
+$3
+set
+$3
+foo
+$24
+{"Message":"Set By Go."}
+*3
+$3
+set
+$3
+foo
+$24
+{"Message":"Set By Go."}
+*3
+$3
+set
+$3
+foo
+$26
+{"message":"Set by Node."}
+*3
+$3
+set
+$3
+foo
+$24
+{"Message":"Set By Go."}
+*3
+$3
+SET
+$3
+foo
+$29
+{"message": "Set by Python."}
+*3
+$3
+set
+$3
+foo
+$25
+{"message":"Set by Ruby"}

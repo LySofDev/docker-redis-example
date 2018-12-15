@@ -1,0 +1,39 @@
+version: '3.2'
+services:
+
+  redis:
+    command: redis-server --appendonly yes
+    image: redis:5.0.3-alpine
+    ports:
+      - "3000:6379"
+    volumes:
+      - ./redis/data:/data
+
+  go-tester:
+    build: ./go-tester
+    volumes:
+      - ./go-tester:/go/src/go-app
+
+  # java-tester:
+  #   build:
+  #     context: ./java-tester
+  #     dockerfile: Dockerfile
+  #   volumes:
+  #     - ./java-tester:/java
+  #     - /java/bid.vicero.redis.example/target
+
+  node-tester:
+    build: ./node-tester
+    volumes:
+      - ./node-tester:/node
+      - /app/node_modules
+
+  python-tester:
+    build: ./python-tester
+    volumes:
+      - ./python-tester:/python
+
+  ruby-tester:
+    build: ./ruby-tester
+    volumes:
+      - ./ruby-tester:/ruby
